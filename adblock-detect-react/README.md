@@ -1,8 +1,5 @@
 # adblock-detect-react
 
-[![npm version](https://badge.fury.io/js/adblock-detect-react.svg)](https://www.npmjs.com/package/adblock-detect-react)
-![Publish Status](https://github.com/aruniverse/adblock-detect-react/workflows/Publish%20Package%20Pipeline/badge.svg)
-
 ## Description
 
 Provides utilities to check if ad block is enabled on a page via either a React hook or a wrapper component.
@@ -13,7 +10,7 @@ Provides utilities to check if ad block is enabled on a page via either a React 
 
 ```tsx
 import React from "react";
-import { useDetectAdBlock } from "adblock-detect-react";
+import { useDetectAdBlock } from "@renfei/adblock-detect-react";
 
 const SomeFunctionalComponent = () => {
   const adBlockDetected = useDetectAdBlock();
@@ -32,7 +29,7 @@ const SomeFunctionalComponent = () => {
 
 ```tsx
 import React from "react";
-import { AdBlockDetectedWrapper } from "adblock-detect-react";
+import { AdBlockDetectedWrapper } from "@renfei/adblock-detect-react";
 
 const SomeFunctionalComponent = () => {
   return (

@@ -1,11 +1,11 @@
 {
-  "name": "adblock-detect-react",
-  "version": "1.1.0",
+  "name": "@renfei/adblock-detect-react",
+  "version": "1.1.1",
   "description": "Provides utilities to check if ad block is enabled on a page via both a React hook and a wrapper component.",
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "types": "esm/index.d.ts",
-  "author": "https://github.com/aruniverse",
+  "author": "https://github.com/renfei",
   "license": "MIT",
   "repository": {
     "url": "https://github.com/renfei/adblock-detect-react",
