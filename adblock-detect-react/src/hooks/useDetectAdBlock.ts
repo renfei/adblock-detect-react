@@ -5,9 +5,9 @@ export const useDetectAdBlock = () => {
 
   useEffect(() => {
     // grab a domain from https://github1s.com/gorhill/uBlock/blob/master/docs/tests/hostname-pool.js
-    const url = "https://googleads4.g.doubleclick.net";
+    const url = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
     fetch(url, {
-      method: "HEAD",
+      method: "GET",
       mode: "no-cors",
       cache: "no-store",
     }).catch(() => {
